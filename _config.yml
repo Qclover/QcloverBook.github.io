@@ -1,76 +1,76 @@
-title：您的网站标题
-description：您网站的描述。
-电子邮件：your-email@address.com
-主题：jekyll-theme-persephone
-作者：您的姓名＃  默认为您的网站标题。
+title: Your Site Title
+description: The description of your site.
+email: your-email@address.com
+theme: jekyll-theme-persephone
+author: Your name #  Default is your site title.
 
-＃＃你的社交帐户。
-社交：
-  github的：github_username
-  twitter：twitter_username
-  脸书：facebook_username
-  instagram的：instagram_username
-  linkedin：linkedin用户名
-  微博：weibo_username
+# # Your social accounts.
+social:
+  github: github_username
+  twitter: twitter_username
+  facebook: facebook_username
+  instagram: instagram_username
+  linkedin: linkedin_username
+  weibo: weibo_username
 
-＃＃主题设置
+# # Theme Settings
 
-＃＃您网站的徽标。将显示在页面的左上方。
-徽标：/img/logo.svg
-＃＃如果我们博客的图像存储在外部云中。您可以使用jekyll-img-prefix插件并在此处设置图像的基本URL。
-img_prefix：https：//your-img-cdn.com
-＃您博客的RSS链接。
-rss：“ /feed.xml ”
+# # Your site's logo. Will be shown on the left top of your page.
+logo: /img/logo.svg
+# # If the images of our blog are stored in an external cloud. You can use the jekyll-img-prefix plugin and set your images' base URL here.
+img_prefix: https://your-img-cdn.com
+# The RSS link of your blog.
+rss: "/feed.xml"
 
-＃＃以下是您的博客显示设置。
-＃ theme_setting：
-＃＃   幻灯片计入幻灯片布局。预设为4。
-＃    slides_count：5
-＃＃   帖子页面顶部的←返回URL。默认为您网站的主页。
-＃    blog_page： “博客/ index.md”
-＃＃   帖子和页面底部您名字上的URL。默认为您网站的主页。
-＃    about_page： “about.md”
-＃＃   菜单图标的网址（有三行黑线）。将显示在幻灯片/书籍/章节布局中。如果为空白，则不会显示。
-＃    archive_page： “archive.md”
-＃＃   导航链接位于首页/页面/帖子/博客布局的右上角。您可以在此处设置本地页面（通过设置布局的路径）或外部链接（都需要标题和URL）。
-  nav_pages：
-    - “ about.md ”
-    --
-      标题：“外部链接标题”
-      网址：“ https://your-external-link.com ”
-＃＃   以下设置中的每个默认值均为false。您可以在此处全局设置它们，也可以在单个帖子/页面/章节中单独设置它们。
-  code：true ＃代码高亮。
-  math：true ＃ Mathjax
-＃   美人鱼：真实＃美人鱼
-＃   此主题的语言环境。
-  郎：
-    category_all：全部＃博客布局页面上类别栏中的第一个标签。通过单击它，将显示您的所有帖子。默认为“全部”。
-    blog_title：Blog ＃帖子布局顶部的←后URL文本。默认为“主页”。
-    ＃注释控件的语言环境。
-    评论：
-      用户：“昵称”
-      电子邮件：“邮箱”
-      url：“链接”
-      message：“说点什么吧... ”
-      回复：“回复”
+# # The followings are settings for displays of your blog.
+# theme_setting:
+#   # The slides count in the slides layout. Default is 4.
+#   slides_count: 5
+#   # The ← back URL on the top of your post page. Default is your site's home page.
+  blog_page: "blog/index.md"
+#   # The URL on your name on the bottom of your post and page. Default is your site's home page.
+#   about_page: "about.md"
+#   #  The URL of the menu icon(which has three black lines). Will be shown on the slides/book/chapter layouts It won't be shown if blank.
+#   archive_page: "archive.md"
+#   # The nav links on the top right of home/page/post/blog layout. You can set a local page(by setting a layout's path) or and external link ( both title and url are required) here.
+  nav_pages:
+    - "about.md"
+    -
+      title: "External Link Title"
+      url: "https://your-external-link.com"
+#   # Every default value in the following settings is false. You can set them globally here or separately in a single post/page/chapter.
+  code: true # Code highlight.
+  math: true # Mathjax
+#   mermaid: true # Mermaid
+#   #  Locales of this theme.
+  lang:
+    category_all: All # The first tag in the categories bar on the blog layout page. By clicking it all of your posts will be shown. Default is 'All'.
+    blog_title: Blog # The text of ← back url on the top of the post layout.  Default is 'Home'.
+    # The locales of the comment controls.
+    comment:
+      user: "昵称"
+      email: "邮箱"
+      url: "链接"
+      message: "说点什么吧..."
+      reply: "回复"
 
-＃ head_code：|
-＃    <！-网站页面顶部的额外代码。您可以在此处添加Google Analysis代码！->
+# head_code: |
+#   <!-- Extra codes in the head of your site pages. You can add your Google Analysis codes here! -->
 
-＃＃注释的设置。
-＃注释：
-＃＃   您应该将其设置为启用评论
-＃已   启用：true
-＃    ＃您的评论提供商
-＃   提供商：disqus＃静态/ disqus
-＃    ＃如果供应商== disqus
-＃    disqus：
-＃     名称：website_name
-＃    ＃或提供静态==
-＃   静态：
-＃＃     您的静态评论网址。
-＃      postUrl：https://api.staticman.net/v2/connect/GITHUB-USERNAME/GITHUB-REPOSITORY
-＃＃静态注释中使用的本地表情符号的设置。jekyll-smiley插件是必需的。
-笑脸：
-  已启用：true
-  目录：img / smileys
+# # The settings of comments.
+# comment:
+#   # You should set it to enable comment
+#   enabled: true
+#   # Your comment provider
+#   provider: disqus # static/disqus
+#   # If provider == disqus
+#   disqus:
+#     name: website_name
+#   # Or provider == static
+#   static:
+#     # Your static comment url.
+#     postUrl:  https://api.staticman.net/v2/connect/GITHUB-USERNAME/GITHUB-REPOSITORY
+# # The settings of local smileys used in static comments. The jekyll-smiley plugin is required.
+smiley:
+  enabled: true
+  dir: img/smileys
