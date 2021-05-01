@@ -1,5 +1,5 @@
-title: Your Site Title
-description: The description of your site.
+title: "Your Site Title"
+description: "The description of your site."
 email: your-email@address.com
 theme: jekyll-theme-persephone
 author: Your name #  Default is your site title.
